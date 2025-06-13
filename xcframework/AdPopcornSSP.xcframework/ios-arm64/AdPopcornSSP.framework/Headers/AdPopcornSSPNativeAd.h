@@ -28,6 +28,7 @@ typedef enum _SSPNativeAdStatus
 @property (strong, nonatomic) UIImageView *iconImageView;
 @property (strong, nonatomic) UIImageView *mainImageView;
 @property (strong, nonatomic) UILabel *ctaLabel;
+@property (strong, nonatomic) UIButton *ctaButton;
 
 @property (nonatomic, unsafe_unretained) BOOL privacyIconVisibility;
 @property (nonatomic, unsafe_unretained) NSInteger privacyIconPosition;
@@ -180,6 +181,7 @@ placementId 가져오기
  adforus renderer 및 super view 설정
  */
 - (void)setAdForusRenderer:(id)adforusNativeAdRenderer superView:(UIView *)uiView;
+
 @end
 
 @protocol APSSPNativeAdDelegate <NSObject>

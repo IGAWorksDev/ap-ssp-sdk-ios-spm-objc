@@ -22,3 +22,7 @@
 #import "AdPopcornSSPModalAd.h"
 #import "AdPopcornSSPContentsAd.h"
 #import "AdPopcornSSPPopContentsAd.h"
+#import "AdPopcornSSPRewardAdPlus.h"
+#import "AdPopcornSSPVideoMixAd.h"
+#import "APSSPRewardAdPlusStatusModel.h"
+
